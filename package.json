@@ -1,0 +1,27 @@
+{
+  "name": "docker-portchecker",
+  "version": "1.0.0",
+  "description": "A Node.js port checker service for Docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "docker run -p 8000:80 chanonlim/docker-portchecker"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chanonlim/docker-portchecker.git"
+  },
+  "keywords": [
+    "docker",
+    "express",
+    "port-checker"
+  ],
+  "author": "chanonlim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chanonlim/docker-portchecker/issues"
+  },
+  "homepage": "https://github.com/chanonlim/docker-portchecker#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
