@@ -4,7 +4,8 @@
   "description": "A Node.js port checker service for Docker",
   "main": "index.js",
   "scripts": {
-    "test": "docker run -p 8000:80 chanonlim/docker-portchecker"
+    "test": "docker run -p 8000:80 chanonlim/docker-portchecker",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
